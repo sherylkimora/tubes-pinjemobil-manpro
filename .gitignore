@@ -1,0 +1,22 @@
+# Rahasia & konfigurasi lokal
+.env
+*.local
+
+# Dependensi / build
+vendor/
+node_modules/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+api/storage/logs/*
+!api/storage/logs/.gitkeep
+
+# Upload pengguna (KTP/SIM/foto kondisi) jangan masuk Git
+uploads/identitas/*
+!uploads/identitas/.gitkeep
